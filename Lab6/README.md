@@ -4,7 +4,7 @@ Screenshot of lab6 live web page running hello-world.js
 
 
 Terminal output:
-'''
+```
 (base) christiantemplin@Christians-Air lesson6 % node hello-world.js
 Server running at http://127.0.0.1:3000/
 ^C
@@ -24,4 +24,4 @@ request end event fired
 4
 ^C
 (base) christiantemplin@Christians-Air lesson6 % 
-'''
+```
