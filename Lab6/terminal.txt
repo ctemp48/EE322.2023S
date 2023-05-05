@@ -1,0 +1,19 @@
+(base) christiantemplin@Christians-Air lesson6 % node hello-world.js
+Server running at http://127.0.0.1:3000/
+^C
+(base) christiantemplin@Christians-Air lesson6 % node hello.js
+Server running at http://127.0.0.1:8080/
+response end call done
+request end event fired
+response end call done
+request end event fired
+^C
+(base) christiantemplin@Christians-Air lesson6 % node http.js
+0
+
+1
+2
+3
+4
+^C
+(base) christiantemplin@Christians-Air lesson6 % 
