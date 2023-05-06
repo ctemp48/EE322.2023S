@@ -81,3 +81,29 @@ Block #20 has been added to the blockchain!
 Hash: 8a82fcec04cfdc14aa779dc32650e8f9b3785a50e5d62bdd24ab7f42c63a8c11
 
 ```
+Terminal 1 blockchain server:
+```
+127.0.0.1 - - [05/May/2023 21:22:30] "GET /chain HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:22:59] "POST /new_transaction HTTP/1.1" 201 -
+127.0.0.1 - - [05/May/2023 21:22:59] "GET /chain HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:23:11] "GET /chain HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:23:51] "GET /chain HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:24:08] "POST /new_transaction HTTP/1.1" 201 -
+127.0.0.1 - - [05/May/2023 21:24:08] "GET /chain HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:24:11] "GET /chain HTTP/1.1" 200 -
+```
+
+Terminal 2 blockchain server:
+```
+127.0.0.1 - - [05/May/2023 21:22:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:22:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [05/May/2023 21:22:59] "POST /submit HTTP/1.1" 302 -
+127.0.0.1 - - [05/May/2023 21:22:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:23:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:23:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:23:57] "GET /index HTTP/1.1" 404 -
+127.0.0.1 - - [05/May/2023 21:24:08] "POST /submit HTTP/1.1" 302 -
+127.0.0.1 - - [05/May/2023 21:24:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023 21:24:11] "GET / HTTP/1.1" 200 -
+```
+
