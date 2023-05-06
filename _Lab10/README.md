@@ -106,4 +106,4 @@ Terminal 2 blockchain server:
 127.0.0.1 - - [05/May/2023 21:24:08] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [05/May/2023 21:24:11] "GET / HTTP/1.1" 200 -
 ```
-
+Website will not update with list of blocks mined despite terminal showing positive feedback that it posted.
