@@ -1,4 +1,4 @@
-Results:
+Snippet of results:
 ```
 \f0\fs22 \cf2 \CocoaLigature0 Last login: Fri May  5 18:17:02 on ttys001\
 (base) christiantemplin@Christians-Air ~ % cd\
