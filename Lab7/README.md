@@ -29,3 +29,5 @@ Fri, 05 May 2023 19:38:54
 200 OK
 
 ```
+Output from running cpudata program:
+![screenshot](cpudata.png)
